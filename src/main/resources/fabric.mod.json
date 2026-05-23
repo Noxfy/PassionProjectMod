@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "passionprojectmod",
+  "version": "${version}",
+  "name": "PassionProjectMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/passionprojectmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.noxfy.passionprojectmod.client.PassionprojectmodDataGenerator"
+    ],
+    "client": [
+      "com.noxfy.passionprojectmod.client.PassionprojectmodClient"
+    ],
+    "main": [
+      "com.noxfy.passionprojectmod.Passionprojectmod"
+    ]
+  },
+  "mixins": [
+    "passionprojectmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
