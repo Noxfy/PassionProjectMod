@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond",
+          "name": "passionprojectmod:gem",
           "conditions": [
             {
               "condition": "minecraft:random_chance",
