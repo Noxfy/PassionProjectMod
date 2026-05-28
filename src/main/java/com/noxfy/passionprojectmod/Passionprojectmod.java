@@ -1,5 +1,6 @@
 package com.noxfy.passionprojectmod;
 
+import com.noxfy.passionprojectmod.entities.ModEntities;
 import net.fabricmc.api.ModInitializer;
 
 public class Passionprojectmod implements ModInitializer {
@@ -8,5 +9,6 @@ public class Passionprojectmod implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.registerModItems();
+        ModEntities.registerAttributes();
     }
 }
